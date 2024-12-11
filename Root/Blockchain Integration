@@ -1,0 +1,7 @@
+blockchain/              # Smart Contracts and Web3 integration
+   ├── contracts/           # Solidity smart contracts
+  ├── scripts/             # Deployment and testing scripts
+   ├── utils/               # Blockchain interaction helpers
+   ├── truffle-config.js    # Truffle configuration
+  ├── hardhat.config.js    # Hardhat configuration
+  └── README.md            # Blockchain documentation
