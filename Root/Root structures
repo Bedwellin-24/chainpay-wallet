@@ -1,0 +1,39 @@
+ChainPay/
+│
+├── frontend/                # React Native App
+│   ├── src/
+│   │   ├── components/      # Reusable UI components
+│   │   ├── screens/         # Screens for app navigation
+│   │   ├── services/        # API calls and helpers
+│   │   ├── utils/           # Utility functions
+│   │   └── App.js           # App entry point
+│   ├── package.json         # Frontend dependencies
+│   └── README.md            # Frontend documentation
+│
+├── backend/                 # Node.js Server
+│   ├── src/
+│   │   ├── controllers/     # API route handlers
+│   │   ├── middleware/      # Authentication and validation middleware
+│   │   ├── models/          # Database models
+│   │   ├── routes/          # Express routes
+│   │   ├── services/        # Business logic and integrations
+│   │   ├── utils/           # Utility functions (e.g., encryption)
+│   │   └── index.js         # App entry point
+│   ├── package.json         # Backend dependencies
+│   ├── .env                 # Environment variables
+│   └── README.md            # Backend documentation
+│
+├── blockchain/              # Smart Contracts and Web3 integration
+│   ├── contracts/           # Solidity smart contracts
+│   ├── scripts/             # Deployment and testing scripts
+│   ├── utils/               # Blockchain interaction helpers
+│   ├── truffle-config.js    # Truffle configuration
+│   ├── hardhat.config.js    # Hardhat configuration
+│   └── README.md            # Blockchain documentation
+│
+├── docs/                    # Project documentation
+│   ├── API.md               # API documentation
+│   └── README.md            # General project overview
+│
+├── README.md                # Root project overview
+└── LICENSE                  # Project license
